@@ -44,11 +44,11 @@ Add absolute path to .env file DB_DATABASE
 
 Please create a user and save auth token
 
-```docker-compose exec app php artisan create:user user@foo.com password```
+```php artisan create:user user@foo.com password```
 
 ## Delete news older than X days
 
-```docker-compose exec app php artisan news:delete --days=14```
+```php artisan news:delete --days=14```
 
 # Run
 ```php artisan serve```
