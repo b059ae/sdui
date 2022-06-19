@@ -38,11 +38,6 @@ Add absolute path to .env file DB_DATABASE
 
 ```php artisan test```
 
-# Run
-```php artisan serve```
-
-Open [http://localhost:8000/](http://localhost:8000/)
-
 # Console commands
 
 ## Create user
@@ -54,6 +49,9 @@ Please create a user and save auth token
 ## Delete news older than X days
 
 ```docker-compose exec app php artisan news:delete --days=14```
+
+# Run
+```php artisan serve```
 
 # Endpoints
 
